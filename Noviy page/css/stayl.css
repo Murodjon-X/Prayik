@@ -1,0 +1,157 @@
+* {
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container nav {
+  display: flex;
+  width: 100%;
+  height: 100px;
+}
+.container nav ul {
+  display: flex;
+}
+.container nav .per {
+  color: black;
+}
+.container nav li {
+  list-style: none;
+  padding: 17px 10px;
+  margin-left: 140px;
+  font-size: 16px;
+}
+@media only screen and (max-width: 800px) {
+  .container nav {
+    width: 100%;
+    text-align: center;
+    height: auto;
+  }
+  .container nav .per {
+    text-align: center;
+    width: inherit;
+  }
+  .container nav ul {
+    display: none;
+  }
+}
+.container .cart {
+  margin: 20px 0;
+}
+.container .cart img {
+  object-fit: cover;
+}
+.container .cart .btn {
+  width: 100%;
+}
+.container .cart button {
+  padding: 10px 30px;
+  background: black;
+  color: #fff;
+  border-radius: 10px;
+  outline: none;
+  border: 0px solid;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container footer {
+  width: 100%;
+  height: 600px;
+}
+.container footer .foo-ter {
+  text-align: center;
+  position: relative;
+  top: 100px;
+}
+.container footer h3 {
+  font-size: 30px;
+}
+.container footer p {
+  line-height: 40px;
+}
+.container footer button {
+  padding: 10px 35px;
+  background: black;
+  color: #fff;
+  border-radius: 15px;
+  border: 0px solid;
+  font-weight: bold;
+  outline: none;
+}
+.container footer button a {
+  text-decoration: none;
+  color: #fff;
+}
+.container footer button:hover {
+  padding: 10px 35px;
+  background: #fff;
+  color: black;
+  border-radius: 15px;
+  border: 0px solid;
+  font-weight: bold;
+  outline: none;
+  box-shadow: 0 0 1px 2px black;
+}
+.container footer button:hover a {
+  text-decoration: none;
+  color: black;
+}
+.container footer span {
+  font-size: 16px;
+  color: #828282;
+  line-height: 30px;
+}
+.container footer .icons {
+  margin-top: 50px;
+}
+.container footer .icons .fa-invision {
+  font-size: 40px;
+  margin: 15px;
+}
+.container footer .icons .fa-instagram {
+  margin: 15px;
+  font-size: 40px;
+}
+.container footer .icons .fa-behance-square {
+  margin: 15px;
+  font-size: 40px;
+}
+.container footer .icons .fa-basketball-ball {
+  margin: 15px;
+  font-size: 40px;
+}
+@media only screen and (max-width: 800px) {
+  .container footer {
+    width: 100%;
+    height: 300px;
+  }
+  .container footer .foo-ter {
+    position: relative;
+    top: auto;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .container {
+    max-width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .container .cart {
+    width: 100%;
+  }
+  .container .cart .btn {
+    display: flex;
+  }
+  .container .cart img {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=stayl.css.map */

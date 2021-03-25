@@ -1,0 +1,93 @@
+footer {
+  width: 100%;
+  height: 600px;
+}
+footer .foo-ter {
+  text-align: center;
+  position: relative;
+  top: 100px;
+}
+footer h3 {
+  font-size: 30px;
+}
+footer p {
+  line-height: 40px;
+}
+footer button {
+  padding: 10px 35px;
+  background: black;
+  color: #fff;
+  border-radius: 15px;
+  border: 0px solid;
+  font-weight: bold;
+  outline: none;
+}
+footer button a {
+  text-decoration: none;
+  color: #fff;
+}
+footer button:hover {
+  padding: 10px 35px;
+  background: #fff;
+  color: black;
+  border-radius: 15px;
+  border: 0px solid;
+  font-weight: bold;
+  outline: none;
+  box-shadow: 0 0 1px 2px black;
+}
+footer button:hover a {
+  text-decoration: none;
+  color: black;
+}
+footer span {
+  font-size: 16px;
+  color: #828282;
+  line-height: 30px;
+}
+footer .icons {
+  margin-top: 50px;
+}
+footer .icons .fa-invision {
+  font-size: 40px;
+  margin: 15px;
+}
+footer .icons .fa-instagram {
+  margin: 15px;
+  font-size: 40px;
+}
+footer .icons .fa-behance-square {
+  margin: 15px;
+  font-size: 40px;
+}
+footer .icons .fa-basketball-ball {
+  margin: 15px;
+  font-size: 40px;
+}
+@media only screen and (max-width: 630px) {
+  footer {
+    width: 97%;
+    margin: 10px;
+    height: 430px;
+  }
+  footer .foo-ter {
+    position: relative;
+    top: 20px;
+  }
+}
+@media only screen and (min-width: 620px) and (max-width: 800px) {
+  footer {
+    margin-top: auto;
+    width: 97%;
+    top: 60px;
+  }
+}
+@media only screen and (min-width: 500px) {
+  footer {
+    margin-top: auto;
+    width: 97%;
+    top: 50px;
+  }
+}
+
+/*# sourceMappingURL=footer.css.map */

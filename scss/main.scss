@@ -1,0 +1,46 @@
+@import "navbar";
+@import "content";
+@import "content-1";
+@import "content-2";
+@import "content-3";
+@import "content-4";
+@import "content-5";
+@import "footer";
+@import "text";
+* {
+  font-family: sans-serif;
+}
+body {
+  margin: 0;
+}
+.container {
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+  @media only screen and (max-width: 800px) {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.tarmoq {
+  width: 100%;
+  ul {
+    display: flex;
+  }
+  li {
+    list-style: none;
+    margin: 10px 60px;
+    font-size: 17px;
+    color: #828282;
+  }
+  @media only screen and (max-width: 800px) {
+    display: none;
+    ul {
+      display: none;
+      li {
+        display: none;
+      }
+    }
+  }
+}

@@ -1,0 +1,123 @@
+.content-4 {
+    width: 100%;
+    height: 600px;
+    display: block;
+    margin: 150px 0;
+    border-top: 0px solid;
+    ul {
+      display: flex;
+      .reebook {
+        font-size: 25px;
+        font-weight: bold;
+      }
+      li {
+        list-style: none;
+        margin: 10px 35px;
+        font-size: 18px;
+        z-index: 50;
+        display: flex;
+        align-items: center;
+        .fa-resolving {
+          color: red;
+        }
+      }
+    }
+    .con-4 {
+      display: flex;
+      width: 100%;
+      justify-self: center;
+      .fa-people-carry {
+        position: relative;
+        top: 480px;
+        height: fit-content;
+        font-size: 30px;
+      }
+      .fa-resolving {
+        color: red;
+        font-size: 80px;
+        position: relative;
+        top: 220px;
+        left: 45px;
+        z-index: 50;
+        height: fit-content;
+      }
+      h1 {
+        width: 50%;
+        display: flex;
+        align-items: center;
+        position: relative;
+        top: -50px;
+        font-size: 72px;
+        color: blue;
+        margin: auto;
+      }
+      img {
+        width: 100%;
+        height: 630px;
+        position: relative;
+        top: -90px;
+        // object-fit: cover;
+      }
+    }
+    @media only screen and (max-width: 800px) {
+      display: block;
+      border-top: 0px solid;
+      margin: auto;
+      ul {
+        display: none;
+      }
+      .con-4 {
+        display: flex;
+        flex-direction: column;
+        .fa-people-carry {
+          display: none;
+        }
+        .fa-resolving {
+          display: none;
+        }
+        h1 {
+          font-size: 35px;
+          margin: 80px auto;
+        }
+        img {
+          width: 90%;
+          margin: 30px 20px;
+          object-fit: contain;
+          height: auto;
+        }
+      }
+    }
+    @media only screen and (min-width: 465px) and (max-width: 800px) {
+      margin-top: 100px;
+      text-align: center;
+      width: 100%;
+      .con-4 {
+        h1 {
+          text-align: center;
+          font-size: 50px;
+        }
+      }
+    }
+    @media only screen and (min-width: 465px) and (max-width: 510px) {
+      margin-top: 80px;
+      text-align: center;
+      width: 100%;
+      .con-4 {
+        h1 {
+          text-align: center;
+          font-size: 50px;
+        }
+      }
+    }
+    @media only screen and (min-width: 510px) and (max-width: 610px) {
+      margin-top: 100px;
+      text-align: center;
+      width: 100%;
+      .con-4 {
+        h1 {
+          text-align: center;
+          font-size: 50px;
+        }
+      }
+    }
+  }

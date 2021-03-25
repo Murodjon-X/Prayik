@@ -1,0 +1,179 @@
+
+nav {
+    ul {
+      display: flex;
+      justify-content: center;
+      .logo {
+        display: none;
+      }
+    }
+    li {
+      display: flex;
+      list-style: none;
+      margin: 0 65px;
+    }
+    .ul-a {
+      color: black;
+      font-weight: bold;
+    }
+    a {
+      color: #828282;
+      text-decoration: none;
+      padding: 15px;
+      font-size: 19px;
+    }
+    a:hover {
+      color: #fff;
+      text-decoration: none;
+      padding: 15px;
+      font-size: 19px;
+      background: black;
+      box-shadow: -2px -4px 16px black, 0px 5px 5px black;
+    }
+    @media only screen and (max-width: 800px) {
+      li {
+        display: none;
+      }
+    }
+    @media only screen and (max-width: 1100px) {
+      li {
+        margin: 35px;
+        padding: auto;
+      }
+      ul {
+        padding: 0;
+        margin: 0;
+      }
+    }
+  }
+  @media only screen and (max-width: 800px) {
+    span {
+      width: 100%;
+      display: block;
+      position: relative;
+      height: max-content;
+      .topnav {
+        display: flex;
+        overflow: hidden;
+        position: relative;
+        top: 80px;
+        left: 610px;
+        overflow: hidden;
+        width: max-content;
+        .fa-bars {
+          color: black;
+          font-size: 30px;
+        }
+        @media only screen and (max-width: 676px) {
+          left: 550px;
+        }
+        @media only screen and (max-width: 624px) {
+          left: 500px;
+        }
+        @media only screen and (max-width: 570px) {
+          left: 450px;
+        }
+        @media only screen and (max-width: 520px) {
+          left: 420px;
+        }
+        @media only screen and (max-width: 470px) {
+          left: 360px;
+        }
+        @media only screen and (max-width: 420px) {
+          left: 340px;
+        }
+        @media only screen and (max-width: 375px) {
+          left: 320px;
+        }
+      }
+    }
+    .my-link {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: 100%;
+      color: black;
+      position: relative;
+      z-index: 100;
+      a {
+        color: black;
+        padding: 30px 50px;
+        text-decoration: none;
+        font-size: 18px;
+        display: block;
+      }
+      a:hover {
+        color: #fff;
+        background: black;
+        padding: 30px 50px;
+        text-decoration: none;
+        font-size: 18px;
+        display: block;
+      }
+      #myLinks {
+        background: #fff;
+        display: none;
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+  .topnav {
+    display: none;
+  }
+  .my-link {
+    @media only screen and (min-width: 1000px) {
+      display: none;
+    }
+  }
+  section {
+    .section {
+      display: flex;
+      border-top: 1px solid #828282;
+      h1 {
+        width: 33%;
+        font-size: 45px;
+        margin-left: 90px;
+      }
+      p {
+        width: 33%;
+        font-size: 18px;
+        display: flex;
+        padding: 20px;
+        margin-top: 60px;
+        margin-left: 50px;
+      }
+      h3 {
+        display: inline-block;
+        transform: rotate(-90deg);
+        margin-left: 100px;
+        margin-top: 70px;
+        position: relative;
+        font-size: 16px;
+      }
+    }
+  
+    @media only screen and (max-width: 800px) {
+      display: flex;
+      align-items: center;
+      .section {
+        width: 70%;
+        display: block;
+        border-top: 0px solid;
+        h1 {
+          display: block;
+          margin: 20px 0 0 30px;
+        }
+        p {
+          font-size: 10px;
+          display: block;
+          margin: 20px 0 20px 30px;
+          margin-left: 30px;
+          padding: 0;
+        }
+        h3 {
+          display: none;
+        }
+      }
+    }
+  }

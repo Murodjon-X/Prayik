@@ -1,0 +1,16 @@
+.content {
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../img/aaa.jpg);
+}
+@media only screen and (max-width: 800px) {
+  .content {
+    background-image: url(../img/01.jpg);
+    background-size: cover;
+    height: 500px;
+    margin: 20px 20px;
+  }
+}
+
+/*# sourceMappingURL=content.css.map */

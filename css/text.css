@@ -1,0 +1,60 @@
+.text-h1 {
+  text-align: center;
+}
+@media only screen and (max-width: 800px) {
+  .text-h1 {
+    display: block;
+    position: relative;
+    top: -612px;
+  }
+}
+
+.text-h2 {
+  text-align: center;
+  margin-top: 100px;
+  text-decoration: underline;
+}
+.text-h2 h2 {
+  font-weight: 500;
+}
+@media only screen and (min-width: 415px) and (max-width: 500px) {
+  .text-h2 {
+    margin-top: 230px;
+  }
+}
+@media only screen and (min-width: 500px) and (max-width: 600px) {
+  .text-h2 {
+    margin-top: 300px;
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 800px) {
+  .text-h2 {
+    margin-top: 400px;
+  }
+}
+
+.text-h3 {
+  text-align: center;
+  margin-top: 100px;
+  text-decoration: underline;
+}
+.text-h3 h2 {
+  font-weight: 500;
+}
+@media only screen and (min-width: 415px) and (max-width: 500px) {
+  .text-h3 {
+    margin-top: 300px;
+  }
+}
+@media only screen and (min-width: 500px) and (max-width: 600px) {
+  .text-h3 {
+    margin-top: 400px;
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 800px) {
+  .text-h3 {
+    margin-top: 500px;
+  }
+}
+
+/*# sourceMappingURL=text.css.map */
